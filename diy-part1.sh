@@ -10,6 +10,7 @@
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
-
+git clone https://github.com/mchome/openwrt-dogcom package/openwrt-dogcom
+git clone https://github.com/mchome/luci-app-dogcom package/luci-app-dogcom
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
